@@ -412,5 +412,17 @@
         "body": [
             "Container(child: $1),"
         ]
+    },
+    "Main Axis Alignment": {
+        "prefix": "main",
+        "body": [
+            "mainAxisAlignment: MainAxisAlignment.$1"
+        ]
+    },
+    "Cross Axis Alignment": {
+        "prefix": "cross",
+        "body": [
+            "crossAxisAlignment: CrossAxisAlignment.$1"
+        ]
     }
 }

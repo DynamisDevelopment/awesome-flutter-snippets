@@ -7,13 +7,14 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 - Supports complex widgets (Eg: Custom Clipper and Custom Paint)
 <br>
 
+## Higher Order Snippets
+__For common and functions and widgets above or equal to the widget scope.__
+
 | Shortcut   | Expanded                 | Description                                                                                                                                                                             |
 | ---------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `statelessW`    | Stateless Widget         | Creates a Stateless widget                                                                                                                                                              |
 | `statefulW`    | Stateful Widget          | Creates a Stateful widget                                                                                                                                                               |
-| `build`      | Build Method             | Describes the part of the user interface represented by the widget.                                                                                                                     |
-| `initS`     | InitState                | Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates.                                                   |
-| `dis`      | Dispose                  | Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again.                                            |
+| `build`      | Build Method             | Describes the part of the user interface represented by the widget.                                                                                                                     |                                           |
 | `reassemble`     | Reassemble               | Called whenever the application is reassembled during debugging, for example during hot reload.                                                                                         |
 | `didChangeD`      | didChangeDependencies    | Called when a dependency of this State object changes                                                                                                                                   |
 | `didUpdateW`      | didUpdateWidget          | Called whenever the widget configuration changes.                                                                                                                                       |
@@ -40,9 +41,19 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | `importC`    | Cupertino Package | Import Cupertino package.
 | `mateapp`    | Material App | Create a new Material App.
 | `cupeapp`    | Cupertino Package | Create a New Cupertino App.
-| `col`    | Column | Creates a new Column with children list.
-| `row`    | Row| Create a new Row with children list.
+
+
+## Lower Order Snippets
+
+__For common methods and properties inside the widget scope.__
+
+| Shortcut   | Expanded                 | Description                                                                                                                                                                             |
+| ---------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `c`    | container | Create a new container with child.
+| `col`    | Column | Create a new Column with children list.
+| `row`    | Row| Create a new Row with children list.
+| `initS`     | InitState                | Called when this object is inserted into the tree. The framework will call this method exactly once for each State object it creates.                                                   |
+| `dis`      | Dispose                  | Called when this object is removed from the tree permanently. The framework calls this method when this State object will never build again. 
 
 <br>
 
