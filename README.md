@@ -40,6 +40,9 @@ Awesome Flutter Snippets is a collection of commonly used Flutter classes and me
 | `importC`    | Cupertino Package | Import Cupertino package.
 | `mateapp`    | Material App | Create a new Material App.
 | `cupeapp`    | Cupertino Package | Create a New Cupertino App.
+| `col`    | Column | Creates a new Column with children list.
+| `row`    | Row| Create a new Row with children list.
+| `c`    | container | Create a new container with child.
 
 <br>
 
